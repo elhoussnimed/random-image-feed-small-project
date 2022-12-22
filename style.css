@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #eee;
+    font-family: 'Text Me One', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 900px;
+    max-width: 90%;
+    margin-inline: auto;
+}
+
+.images img {
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
